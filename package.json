@@ -1,0 +1,19 @@
+{
+  "name": "ssl-link-checker",
+  "version": "1.0.0",
+  "description": "check if all links are https://\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D on specified pages are \u001b[2~\u001b[D\u001b[D\u001b[2~\u001b[Dre https://",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geniuskouta/ssl-link-checker.git"
+  },
+  "author": "geniuskouta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geniuskouta/ssl-link-checker/issues"
+  },
+  "homepage": "https://github.com/geniuskouta/ssl-link-checker#readme"
+}

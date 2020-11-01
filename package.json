@@ -1,10 +1,11 @@
 {
   "name": "ssl-link-checker",
   "version": "1.0.0",
-  "description": "check if all links are https://\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D on specified pages are \u001b[2~\u001b[D\u001b[D\u001b[2~\u001b[Dre https://",
+  "description": "check if all links are https",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/geniuskouta/ssl-link-checker/issues"
   },
-  "homepage": "https://github.com/geniuskouta/ssl-link-checker#readme"
+  "homepage": "https://github.com/geniuskouta/ssl-link-checker#readme",
+  "dependencies": {
+    "puppeteer": "^5.4.1"
+  }
 }
